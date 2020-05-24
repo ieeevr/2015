@@ -1,0 +1,4 @@
+<FilesMatch "\.mp4$">
+  Header set Content-Type video/mp4
+  Header set Content-Disposition inline
+</FilesMatch>
